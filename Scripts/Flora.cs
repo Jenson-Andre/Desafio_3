@@ -29,5 +29,5 @@ public class Flora : Heroes
         EquipS = "Mirror Strike 2";
     }
 
-    string json = JsonUtility.ToJson(Flora);
+    public string json = JsonUtility.ToJson(new Flora());
 }

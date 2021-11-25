@@ -29,5 +29,5 @@ public class Reyson : Heroes
         EquipS = "Chill Spd 3";
     }
 
-    string json = JsonUtility.ToJson(Reyson);
+    public string json = JsonUtility.ToJson(new Reyson());
 }

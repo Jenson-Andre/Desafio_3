@@ -29,5 +29,5 @@ public class Miranda : Heroes
         EquipS = "Heavy Blade 3";
     }
 
-    string json = JsonUtility.ToJson(Miranda);
+    public string json = JsonUtility.ToJson(new Miranda());
 }

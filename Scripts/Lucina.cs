@@ -29,5 +29,5 @@ public class Lucina : Heroes
         EquipS = "Atk Spd Bond 3";
     }
 
-    string json = JsonUtility.ToJson(Lucina);
+    public string json = JsonUtility.ToJson(new Lucina());
 }

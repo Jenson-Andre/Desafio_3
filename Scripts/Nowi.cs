@@ -29,5 +29,5 @@ public class Nowi : Heroes
         EquipS = "Steady Breath";
     }
 
-    string json = JsonUtility.ToJson(Nowi);
+    public string json = JsonUtility.ToJson(new Nowi());
 }

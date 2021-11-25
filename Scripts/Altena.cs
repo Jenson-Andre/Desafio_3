@@ -28,5 +28,5 @@ public class Altena : Heroes
         EquipC = "Hone Atk 4";
         EquipS = "Fort. Def Res 2";
     }
-    string json = JsonUtility.ToJson(Altena);
+    public string json = JsonUtility.ToJson(new Altena());
 }

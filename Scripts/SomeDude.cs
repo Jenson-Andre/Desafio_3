@@ -7,6 +7,8 @@ public class SomeDude : Players
     public SomeDude(){
         _Nick = "SomeDude";
         _PlayerCode = "7325852547";
-        _HeroesInBarracks = new string[] {"Edelgard", "Genny", "Miranda", "Nowi"}; 
+        _HeroesInBarracks = new List<string> {"Edelgard", "Genny", "Miranda", "Nowi"}; 
     }
+
+    public string json = JsonUtility.ToJson(new SomeDude());
 }

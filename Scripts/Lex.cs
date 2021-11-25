@@ -29,5 +29,5 @@ public class Lex : Heroes
         EquipS = "Atk Def Solo 3";
     }
 
-    string json = JsonUtility.ToJson(Lex);
+    public string json = JsonUtility.ToJson(new Lex());
 }

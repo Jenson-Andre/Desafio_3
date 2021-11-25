@@ -29,5 +29,5 @@ public class Edelgard : Heroes
         EquipS = "Mystic Boost 3";
     }
 
-    string json = JsonUtility.ToJson(Edelgard);
+    public string json = JsonUtility.ToJson(new Edelgard());
 }
