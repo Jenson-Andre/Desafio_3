@@ -29,5 +29,5 @@ public class Genny : Heroes
         EquipS = "Savage Blow 3";
     }
 
-    public string json = JsonUtility.ToJson(new Genny());
+    //public string json = JsonUtility.ToJson(new Genny());
 }

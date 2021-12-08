@@ -8,5 +8,5 @@ public class GCF : Players{
         _PlayerCode = "9547656684";
         _HeroesInBarracks = new List<string> {"Flora", "Lucina", "Reyson", "Leonie"}; 
     }
-public string json = JsonUtility.ToJson(new GCF());
+//public string json = JsonUtility.ToJson(new GCF());
 }

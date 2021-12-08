@@ -29,5 +29,5 @@ public class Soleil : Heroes
         EquipS = "Atk/Spd Solo 3";
     }
     
-    public string json = JsonUtility.ToJson(new Soleil());
+    //public string json = JsonUtility.ToJson(new Soleil());
 }

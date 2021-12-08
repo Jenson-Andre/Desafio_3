@@ -10,5 +10,5 @@ public class Kiran : Players
         _HeroesInBarracks = new List<string> {"Soleil", "Altena", "Lex", "Cecilia"}; 
     }
 
-    public string json = JsonUtility.ToJson(new Kiran());
+    //public string json = JsonUtility.ToJson(new Kiran());
 }

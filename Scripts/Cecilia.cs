@@ -29,5 +29,5 @@ public class Cecilia : Heroes
         EquipS = "Atk Def Form 3";
     }
 
-    public string json = JsonUtility.ToJson(new Cecilia());
+    //public string json = JsonUtility.ToJson(new Cecilia());
 }

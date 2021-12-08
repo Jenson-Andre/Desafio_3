@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.IO;
 public class Altena : Heroes
 {
     public Altena(){
@@ -28,5 +28,10 @@ public class Altena : Heroes
         EquipC = "Hone Atk 4";
         EquipS = "Fort. Def Res 2";
     }
-    public string json = JsonUtility.ToJson(new Altena());
+    //public string json = JsonUtility.ToJson(new Altena());
+    /*public void Create() {
+    File.WriteAllText(Application.dataPath + "/Saves/Altena.json" ,json);
+        
+    }
+    */
 }

@@ -29,5 +29,5 @@ public class Leonie : Heroes
         EquipS = "Blade Session";
     }
 
-    public string json = JsonUtility.ToJson(new Leonie());
+    //public string json = JsonUtility.ToJson(new Leonie());
 }
